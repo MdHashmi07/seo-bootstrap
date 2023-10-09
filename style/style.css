@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.common-text-color {
+  color: #6f77f1;
+}
+
+/*          Nav Section       */
+
+.nav-links:hover {
+  color: #666565 !important;
+  text-decoration: underline !important;
+}
+
+.nav-search-button {
+  background-color: #fad725;
+}
+
+/*          Hero Section      */
+
+.hero-artical-heading {
+  font-size: 5rem !important;
+}
+
+.rotated {
+  rotate: -8.23deg;
+  color: #6f77f1;
+  border: 2px solid #6f77f1;
+}
+
+.hero-artical-button {
+  background-color: #fad725;
+}
+
+.hero-card {
+  background-color: whitesmoke;
+  box-shadow: 0px 17px 33px -14px #02160512 !important;
+}
+
+/*       Optimising Section      */
+
+.optimising-cards {
+  background-color: whitesmoke;
+}
+
+/*      Business Section         */
+
+.business-section {
+  background-color: #fafafa;
+}
+
+.business-left-button {
+  background-color: #fad725;
+}
+
+.business-left-button:hover {
+  background-color: #eec807;
+}
+
+/*      Business cards section    */
+
+.business-cards {
+  background-color: whitesmoke;
+}
+
+/*      Choose Section       */
+
+.choose-section {
+  background-color: whitesmoke;
+}
+
+.choose-button {
+  background-color: #fad725;
+}
+
+.choose-button:hover {
+  background-color: #e0bb02;
+}
+
+.choose-cards {
+  background-color: white;
+}
+
+/*         Need It Section       */
+
+.need-it-cards:hover {
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 10px lightgray;
+}
+
+/*          Experience Section       */
+
+.experience-section {
+  border-color: #e1e1e1;
+}
+.experience-heading {
+  color: #666565;
+}
+
+/*          Check Section        */
+
+.check-input {
+  background-color: #f2f2f2;
+}
+
+.check-input::placeholder {
+  color: #b6b6b6;
+}
+
+.check-button {
+  background-color: #fad725;
+}
+
+.check-button:hover {
+  background-color: #edc603;
+}
+
+.check-input-1 {
+  border-right: 2px solid #dfdfdf !important;
+}
+
+/*         Our Plan section         */
+
+.our-plane-section {
+  background-color: #fafafa;
+}
+.plane-heading {
+  font-size: 4rem;
+}
+
+.plane-card-heading:hover {
+  color: white !important;
+}
+
+.our-plan-card {
+  background-color: white;
+}
+
+.plan-text:hover {
+  color: white !important;
+}
+.our-plan-card:hover {
+  background-color: #6f77f1;
+  scale: 1.1;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.our-plan-card:hover p {
+  color: white !important;
+}
+
+.our-plan-card:hover button {
+  background-color: #fad725;
+}
+
+/*       Our  Memeber Section    */
+
+.team-member-cards {
+  border-color: #efefef;
+}
+
+.team-member-cards:hover {
+  background-color: whitesmoke;
+}
+
+.team-member-cards:hover p {
+  color: #6f77f1;
+}
+
+/*          Client section           */
+
+.client-card {
+  border-color: #efefef;
+  left: 10rem;
+}
+
+.client-card:hover {
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 10px lightgrey;
+}
+
+/*          Subscribe section        */
+
+.subscribe-section {
+  background-color: #fafafa;
+}
+
+.subscribe-btn {
+  background-color: #6f77f1;
+}
+
+.subscribe-btn:hover {
+  background-color: #4752ef;
+}
+
+.subscribe-form-input {
+  border: 1px solid #c3c6d0;
+}
+
+/*          Footer Section          */
+
+footer {
+  border-top: 2px solid #eae5e5;
+}
+
+/*          Media secion         */
+@media screen and (min-width: 1440px) {
+  .hero-cards-section {
+    margin: 0px 9rem;
+    gap: 5rem !important;
+  }
+
+  .business-left-section {
+    margin: 5rem 0rem 5rem 17rem !important;
+  }
+
+  .business-right-section {
+    margin-right: 8rem;
+  }
+
+  .girl-image {
+    width: 100vw;
+    height: 100%;
+  }
+
+  .nav-list {
+    margin-right: 10rem !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero-left-section {
+    margin-left: 5rem;
+  }
+
+  .hero-right-section {
+    margin-right: 5rem;
+  }
+
+  .optimising-header {
+    margin: 5rem 5rem !important;
+  }
+
+  .hero-right-section {
+    position: relative;
+  }
+
+  .team-image {
+    position: absolute;
+    top: 70%;
+    right: 70%;
+  }
+}
